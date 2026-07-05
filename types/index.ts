@@ -27,6 +27,11 @@ export interface AboutInfo {
   bio: string;
   yearsOfExperience: number;
   highlightPoints: string[];
+  education?: string;
+  achievements?: {
+    count: string;
+    label: string;
+  }[];
 }
 
 export interface ExperienceItem {

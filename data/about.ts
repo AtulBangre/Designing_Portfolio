@@ -1,14 +1,6 @@
 import { AboutInfo } from '@/types';
 
-interface ExtendedAboutInfo extends AboutInfo {
-  education: string;
-  achievements: {
-    count: string;
-    label: string;
-  }[];
-}
-
-export const aboutData: ExtendedAboutInfo = {
+export const aboutData: AboutInfo = {
   bio: 'I am a creative designer with 2+ years of experience specializing in E-commerce branding, Amazon A+ Content (EBC), Product Listing Images, Brand Store Design, UI/UX, Social Media Creatives, Print Media, Product Retouching and Visual Identity. I create conversion-focused designs that combine branding, marketing and user experience.',
   yearsOfExperience: 2,
   highlightPoints: [
