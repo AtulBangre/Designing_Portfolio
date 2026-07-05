@@ -118,7 +118,7 @@ export const Process: React.FC = () => {
                 <div className="w-2 h-2 rounded-full bg-accent" />
               </div>
               {idx < steps.length - 1 && (
-                <div className="connector-line flex-1 h-0.5 bg-gradient-to-r from-accent/40 to-accent/10 mx-1" style={{ scaleX: 0, transformOrigin: 'left center' }} />
+                <div className="connector-line flex-1 h-0.5 bg-gradient-to-r from-accent/40 to-accent/10 mx-1" style={{ transform: 'scaleX(0)', transformOrigin: 'left center' }} />
               )}
             </React.Fragment>
           ))}
