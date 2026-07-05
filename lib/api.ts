@@ -71,9 +71,9 @@ export async function getHeroData(): Promise<HeroInfo> {
   return settings?.hero ? { ...heroData, ...(settings.hero as Partial<HeroInfo>) } : heroData;
 }
 
-export async function getAboutData(): Promise<typeof aboutData> {
+export async function getAboutData(): Promise<AboutInfo> {
   const settings = await getSiteSettingsFromDB();
-  return settings?.about ? (settings.about as AboutInfo) : aboutData;
+  return settings?.about ? { ...aboutData, ...settings.about } : aboutData;
 }
 
 export async function getExperienceData(): Promise<ExperienceItem[]> {

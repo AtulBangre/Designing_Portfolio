@@ -129,7 +129,7 @@ export default async function Home() {
     <>
       <main className="flex-1 w-full">
         {/* Sections layout */}
-        <Hero heroInfo={heroInfo} achievements={aboutInfo.achievements || []} />
+        <Hero heroInfo={heroInfo} achievements={aboutInfo.achievements} />
         <About aboutInfo={aboutInfo} siteInfo={siteInfo} />
         <Services services={services} />
         <Experience experience={experience} />

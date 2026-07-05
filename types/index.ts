@@ -27,8 +27,8 @@ export interface AboutInfo {
   bio: string;
   yearsOfExperience: number;
   highlightPoints: string[];
-  education?: string;
-  achievements?: {
+  education: string;
+  achievements: {
     count: string;
     label: string;
   }[];
