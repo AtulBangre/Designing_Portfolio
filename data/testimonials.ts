@@ -1,0 +1,58 @@
+import { TestimonialItem } from '@/types';
+
+export const testimonialsData: TestimonialItem[] = [
+  {
+    id: 'test-1',
+    name: 'Sarah Jenkins',
+    role: 'CEO & Founder',
+    company: 'GlowNutra Supplements',
+    content: 'Atul completely transformed our Amazon presence. The A+ Content and Listing Images he created led to a direct 24% increase in our conversion rate within the first month. He combines raw design skills with a deep understanding of e-commerce psychology.',
+    rating: 5,
+    avatarUrl: 'https://picsum.photos/seed/sarah-j/80/80',
+  },
+  {
+    id: 'test-2',
+    name: 'Michael Chang',
+    role: 'Head of Growth',
+    company: 'Kinetix Wearables',
+    content: 'Collaborating with Atul on our Shopify Store UI/UX redesign was seamless. He delivered beautiful, developer-friendly Figma mockups that captured our premium brand vibe perfectly. His communication and turnaround times are exemplary.',
+    rating: 5,
+    avatarUrl: 'https://picsum.photos/seed/michael-c/80/80',
+  },
+  {
+    id: 'test-3',
+    name: 'Elena Rostova',
+    role: 'Product Marketing Manager',
+    company: 'Veloce Cosmetics',
+    content: 'Atul designed our new cosmetic packaging and social media launch assets. His attention to detail in product retouching and realistic packaging mockups is incredible. We got exactly what we needed to launch our brand successfully.',
+    rating: 5,
+    avatarUrl: 'https://picsum.photos/seed/elena-r/80/80',
+  },
+  {
+    id: 'test-4',
+    name: 'Raj Mehta',
+    role: 'Brand Manager',
+    company: 'AromaZen Wellness',
+    content: 'Atul delivered our entire packaging line in just 6 days — press-ready, zero revisions needed at the print vendor. The botanical illustrations he designed became the centerpiece of our brand and helped us land shelf space in three retail chains.',
+    rating: 5,
+    avatarUrl: 'https://picsum.photos/seed/raj-m/80/80',
+  },
+  {
+    id: 'test-5',
+    name: 'Priya Nair',
+    role: 'Founder',
+    company: 'Zeta Skincare',
+    content: 'We had 80+ SKU photos that needed a complete overhaul. Atul handled the entire batch — background removal, shadow composites, color grading — with extreme precision. Our Nykaa store saw a 12% uplift in conversions after the image upgrade.',
+    rating: 5,
+    avatarUrl: 'https://picsum.photos/seed/priya-n/80/80',
+  },
+  {
+    id: 'test-6',
+    name: 'Arjun Singh',
+    role: 'Director of Operations',
+    company: 'Fakhri IT Services India',
+    content: 'Working with Atul on our client projects over two years has been outstanding. He brings a senior designer\'s eye for quality, always meets deadlines, and communicates proactively. Any agency or brand would be lucky to have him on their team.',
+    rating: 5,
+    avatarUrl: 'https://picsum.photos/seed/arjun-s/80/80',
+  },
+];
