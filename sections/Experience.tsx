@@ -98,7 +98,7 @@ export const Experience: React.FC<ExperienceProps> = ({ experience }) => {
           <div
             ref={lineRef}
             className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-accent via-accent/40 to-transparent -translate-x-1/2 -z-10"
-            style={{ scaleY: 0, transformOrigin: 'top center' }}
+            style={{ transform: 'scaleY(0)', transformOrigin: 'top center' }}
           />
 
           <div className="flex flex-col gap-12">
