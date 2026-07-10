@@ -48,9 +48,9 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
     setCurrentIndex(prev => (prev === testimonials.length - 1 ? 0 : prev + 1));
   };
 
-  const slideVariants = {
+  const slideVariants: import('framer-motion').Variants = {
     enter: (dir: number) => ({ x: dir > 0 ? 80 : -80, opacity: 0, scale: 0.96 }),
-    center: { x: 0, opacity: 1, scale: 1, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] as any } },
+    center: { x: 0, opacity: 1, scale: 1, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] } },
     exit: (dir: number) => ({ x: dir < 0 ? 80 : -80, opacity: 0, scale: 0.96, transition: { duration: 0.35, ease: 'easeIn' } }),
   };
 
