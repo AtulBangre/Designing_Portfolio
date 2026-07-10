@@ -10,7 +10,7 @@ interface ProcessStep {
   step: string;
   title: string;
   description: string;
-  icon: any;
+  icon: React.ElementType;
 }
 
 export const Process: React.FC = () => {
